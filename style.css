@@ -25,6 +25,7 @@ ul a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 8px 16px;
 }
 
 .hero-img img {
@@ -40,9 +41,15 @@ ul a {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    gap: 42px;
     margin: 0px;
     padding: 16px;
+    align-items: center;
+}
+
+.info-imgs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -54,6 +61,10 @@ ul a {
     border-radius: 5px;
 }
 
+.info-imgs div p{
+    font-size: 12px;
+}
+
 .zero h2{
     font-size: 48px;
     font-weight: bolder;
@@ -62,6 +73,8 @@ ul a {
 
 .info-imgs{
     display: flex;
+    justify-content: space-around;
+    margin: 8px 32px;
 }
 .one,
 .three{
@@ -74,4 +87,6 @@ ul a {
 
 .one{
     text-align: center;
+    justify-content: space-between;
+    gap: 32px;
 }

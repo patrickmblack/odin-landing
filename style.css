@@ -29,21 +29,24 @@ ul a {
 }
 
 .hero-img img {
+    display: flex;
     width: 250px;
-    flex: 1;
+    flex: 2;
 }
 
 .hero-text{
-    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 0;
 }
 
 .zero{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0px;
-    padding: 16px;
+    padding: 16px 32px;
     align-items: center;
+    gap: 12px;
 }
 
 .info-imgs div{

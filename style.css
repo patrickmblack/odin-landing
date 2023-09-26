@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     padding: 8px;
     margin: 0px;
-    background-color: #1F2937;
+    background-color: #502b4e;
     color: #E5E7EB;
     flex: 0;
 }
@@ -40,7 +40,7 @@ ul a {
 }
 
 .zero{
-    background-color: #1F2937;
+    background-color: #502b4e;
     display: flex;
     justify-content: space-evenly;
     margin: 0px;
@@ -60,7 +60,7 @@ ul a {
     height: 150px;
     border-width: 5px;
     border-style: solid;
-    border-color: #1F2937;
+    border-color: #502b4e;
     border-radius: 5px;
 }
 
@@ -111,7 +111,7 @@ ul a {
 
 .quote{
     font-size: 36px;
-    color: #1F2937;
+    color: #371f36;
     font-style: italic;
     font-weight: light;
 }
@@ -124,7 +124,7 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #aa38f6;
     margin: 32px;
     border-radius: 8px;
     color: #f9faf8;
@@ -143,7 +143,7 @@ ul a {
 }
 
 .energy-btn{
-    background-color: #3882f6;
+    background-color: #aa38f6;
     border: #f9faf8 solid;
     border-width: 1px;
     border-radius: 8px;
@@ -156,7 +156,7 @@ ul a {
 .footer{
     text-align: center;
     margin: 0;
-    background-color: #1F2937;
+    background-color: #502b4e;
     color: #E5E7EB;
     font-size: 18px;
 }
